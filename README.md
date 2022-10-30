@@ -147,12 +147,10 @@ p.classe#id{
   }
 ~~~
 #### Combinadores
-##### * Descendente
-##### Filho
-Seleciona **apenas** os filhos diretos do seletor, utilizando o sinal de **>**, conforme exemplo:
-~~~css
-div > p{
-    color: red;
-  }
-~~~
 
+|Seletor|Descrição|Exemplo|
+|----|----|----|
+|**Seletor descendente**|todos os &lt;span&gt;s que são descendentes de uma &lt;div>|div p {color:red;}|
+|**Seletor filho**|todos os &lt;span&gt;s que são filhos diretos de uma <div&gt;|div **>** p {color:red;}|
+|**Seletor de irmãos**|todos os &lt;span&gt;s que são irmãos após uma &lt;a&gt;, mesma identação.|p **~** p {color:red;}|
+|**Seletor irmão adjacente**|todos os &lt;span&gt;s que estão imediatamente após uma &lt;a&gt;|p **+** p {color:red;}|

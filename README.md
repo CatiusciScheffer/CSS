@@ -1,5 +1,5 @@
 
-## Resumo CSS - Casvating Style Sheets
+## Resumo CSS - Cascating Style Sheets
 
 #### O que é possível criar com CSS:
 
